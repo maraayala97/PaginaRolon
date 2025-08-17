@@ -347,8 +347,8 @@ font-family: "Poiret One", sans-serif;
 
 /*Campo tu historia*/
 .mensaje {
-    background-color: #2c2c2c;
     width: 50%;
+    padding-bottom: 5rem;
 }
 .mensaje label{
       font-size: 2rem;
@@ -357,12 +357,11 @@ font-family: "Poiret One", sans-serif;
 }
 
 .mensaje textarea{
-    padding: 1rem 2rem; /* 1rem arriba/abajo, 2rem izquierda/derecha */
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-size: 1.6rem;
     width: 100%;
-    align-items: center;
+    height: 30rem;
 }
 /*Boton*/
 
@@ -381,11 +380,11 @@ font-family: "Poiret One", sans-serif;
 .pie {
     font-size: 200%;
     text-align: left;
-    margin-top: 20px;}
+    margin-top: 10rem;}
 footer img {
     width: 5%;
     background-color: #e8ecf0;
     color: #4a4a4a;
-    margin-top: 5px;
+    margin-top: 2rem;
 }
 

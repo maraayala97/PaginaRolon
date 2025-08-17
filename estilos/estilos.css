@@ -357,6 +357,7 @@ font-family: "Poiret One", sans-serif;
 }
 
 .mensaje textarea{
+    padding: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-size: 1.6rem;

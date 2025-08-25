@@ -3,3 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/*contenedor raíz de toda la página*/
+html {
+    /* font-size: 10px; osea que 1 rem = 10 px, puedo usar porcentaje 10px es 62,5% */
+    font-size: 62.5%;
+}

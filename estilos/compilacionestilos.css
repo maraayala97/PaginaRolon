@@ -1,0 +1,213 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap");
+* {
+  margin: 0px; /*para estas medidas es mejor usar px antes que porcentajes porque se usan valores mas chicos*/
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*contenedor raíz de toda la página*/
+html {
+  /* font-size: 10px; osea que 1 rem = 10 px, puedo usar porcentaje 10px es 62,5% */
+  font-size: 62.5%;
+}
+
+.encabezado {
+  background-color: #e8ecf0;
+  font-size: 5rem;
+  width: 100%;
+  padding: 20px;
+}
+.encabezado nav ul {
+  list-style: none; /*Saco viñetas*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.encabezado nav ul .menu {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+}
+.encabezado nav ul .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  width: 10%;
+}
+.encabezado nav ul .logo img {
+  width: 100%;
+  border-radius: 80%;
+}
+.encabezado nav ul a {
+  text-decoration: none;
+  color: #2c2c2c;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer .pie {
+  font-size: 200%;
+  text-align: left;
+  margin-top: 10rem;
+}
+footer img {
+  width: 5%;
+  margin-top: 2rem;
+}
+
+.presentacion {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.presentacion h1 {
+  font-size: 10rem;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  text-decoration: solid;
+}
+.presentacion p {
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Lora", serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+body {
+  color: #4a4a4a;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.videosgrid {
+  border: 6px solid #4a4a4a;
+  background-color: #bec2c6;
+  display: grid;
+  grid-template-areas: "titulo1 titulo1 titulo1" "titulo2 titulo2 titulo2" "video11 video12 video13" "video21 video22 video23";
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto auto auto auto;
+  padding: 5px;
+  font-family: "Playfair Display", serif;
+}
+.videosgrid h2 {
+  opacity: 80%;
+  font-size: 4rem;
+}
+.videosgrid h3 {
+  opacity: 80%;
+  font-size: 2rem;
+  font-style: italic;
+}
+.videosgrid iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.videosgrid .titulo {
+  padding: 6px;
+  grid-area: titulo1;
+}
+.videosgrid .subtitulo {
+  grid-area: titulo2;
+}
+.videosgrid .video11 {
+  padding: 6px;
+  grid-area: video11;
+}
+.videosgrid .video12 {
+  padding: 6px;
+  grid-area: video12;
+}
+.videosgrid .video13 {
+  padding: 6px;
+  grid-area: video13;
+}
+.videosgrid .video21 {
+  padding: 6px;
+  grid-area: video21;
+}
+.videosgrid .video22 {
+  padding: 6px;
+  grid-area: video22;
+}
+.videosgrid .video23 {
+  padding: 6px;
+  grid-area: video23;
+}
+
+/*Celulares*/
+@media (max-width: 575.98px) {
+  /*El nav lo vuelvo columna*/
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+  }
+  nav a {
+    font-size: 2rem;
+  }
+  .logo {
+    width: 50%;
+  }
+  .logo img {
+    width: 100%;
+  }
+  /* Achico tamaño de letras*/
+  h1 {
+    font-size: 4rem;
+  }
+  .videos h2 {
+    font-size: 2rem;
+  }
+  .videos h3 {
+    font-size: 1rem;
+  }
+  .presentacion p {
+    font-size: 1.6rem;
+  }
+  /* VIDEOS: 1 */
+  .videosgrid {
+    padding-top: 10px;
+    grid-template-columns: 100%;
+    grid-template-areas: "titulo1" "titulo2" "video11" "video12" "video13" "video21" "video22" "video23";
+  }
+  /* LIBROS */
+  .libros {
+    grid-template-columns: 1fr;
+    grid-template-areas: "libro1" "libro2" "libro3" "libro4" "libro5" "libro6";
+  }
+  /* FORMULARIO */
+  .mensaje {
+    width: 100%;
+  }
+  .camposform {
+    padding: 2rem 1rem;
+  }
+  .nombre, .apellido, .email, .terapia .terapiaselect {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .terapia {
+    padding-top: 2rem;
+  }
+  .terapiaparrafo {
+    margin-bottom: 1rem;
+  }
+  /* FOOTER */
+  footer img {
+    width: 12%;
+  }
+}
+
+/*# sourceMappingURL=compilacionestilos.css.map */

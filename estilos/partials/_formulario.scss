@@ -1,9 +1,18 @@
-label { 
-    margin: 2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+main{ 
+    p {
+        font-size: 3rem;
+        text-align: center;
     }
-input{
-     padding: 0.5rem;
+    .formulario {
+        font-family: "Poiret One", sans-serif;
+            .camposform {
+                font-size: 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top: 6rem;
+                padding-bottom: 6rem; 
+            }
+    }
 }

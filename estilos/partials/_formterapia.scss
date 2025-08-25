@@ -1,0 +1,16 @@
+.terapia {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        p{
+            font-size: 2rem;
+            font-family: "Poiret One", sans-serif;
+            margin-right: 3rem;
+        }
+        select {
+            padding: 0.5rem;
+            font-size: 2rem;
+        }
+}

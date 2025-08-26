@@ -1,18 +1,22 @@
 @use "./variables" as *;
 
 footer{
-    background-color: $casiblanco;
+    background-color: #948979;
     border-radius: 50%;
+    padding-bottom: 1rem;
     .pie {
     color: $casiblanco;
-    font-size: 200%;
+    font-size: 300%;
     text-align: center;
     margin-top: 10rem;
-    background-color: $gris;
-    border-radius: 35%;}
+    background-color: rgba(74, 74, 74, 0.5);
+    border-radius: 35%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    }
     img {
     width: 5%;
     margin-top: 0.5rem;
     margin-left: 4rem;
-}
+    }
 }

@@ -2,6 +2,10 @@ main{
     p {
         font-size: 2rem;
         text-align: center;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
     }
     .formulario {
         font-family: "Poiret One", sans-serif;
@@ -12,7 +16,9 @@ main{
                 justify-content: center;
                 align-items: center;
                 padding-top: 6rem;
-                padding-bottom: 6rem; 
+                padding-bottom: 6rem;
+                background-color: rgba(148, 137, 121, 0.4);
+                border-radius: 40%;
             }
     }
 }

@@ -14,7 +14,7 @@ html {
 }
 
 .encabezado {
-  background-color: #e8ecf0;
+  background-color: #948979;
   font-size: 3rem;
   width: 100%;
   padding: 20px;
@@ -45,6 +45,7 @@ html {
 .encabezado nav ul .logo img {
   width: 100%;
   border-radius: 80%;
+  opacity: 80%;
 }
 .encabezado nav ul a {
   text-decoration: none;
@@ -54,16 +55,19 @@ html {
 }
 
 footer {
-  background-color: #bec2c6;
+  background-color: #948979;
   border-radius: 50%;
+  padding-bottom: 1rem;
 }
 footer .pie {
   color: #bec2c6;
-  font-size: 200%;
+  font-size: 300%;
   text-align: center;
   margin-top: 10rem;
-  background-color: #2c2c2c;
+  background-color: rgba(74, 74, 74, 0.5);
   border-radius: 35%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 footer img {
   width: 5%;
@@ -98,13 +102,13 @@ body {
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #DFD0B8;
 }
 
 .videosgrid {
   margin-top: 30px;
   border-radius: 30%;
-  background-color: #bec2c6;
+  background-color: rgba(148, 137, 121, 0.5);
   display: grid;
   grid-template-areas: "titulo1 titulo1 titulo1" "titulo2 titulo2 titulo2" "video11 video12 video13" "video21 video22 video23";
   grid-template-columns: 33% 33% 33%;
@@ -282,6 +286,10 @@ body {
 main p {
   font-size: 2rem;
   text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
 }
 main .formulario {
   font-family: "Poiret One", sans-serif;
@@ -294,6 +302,8 @@ main .formulario .camposform {
   align-items: center;
   padding-top: 6rem;
   padding-bottom: 6rem;
+  background-color: rgba(148, 137, 121, 0.4);
+  border-radius: 40%;
 }
 
 .nombre {

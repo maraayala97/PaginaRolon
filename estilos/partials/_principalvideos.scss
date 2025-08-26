@@ -1,7 +1,8 @@
 @use "./variables" as *;
 
 .videosgrid {
-    border: 6px solid $grisclaro;
+    margin-top: 30px;
+    border-radius: 30%;
     background-color: $casiblanco; 
     display: grid;
     grid-template-areas:

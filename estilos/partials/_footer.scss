@@ -1,10 +1,18 @@
+@use "./variables" as *;
+
 footer{
+    background-color: $casiblanco;
+    border-radius: 50%;
     .pie {
+    color: $casiblanco;
     font-size: 200%;
-    text-align: left;
-    margin-top: 10rem;}
+    text-align: center;
+    margin-top: 10rem;
+    background-color: $gris;
+    border-radius: 35%;}
     img {
     width: 5%;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 4rem;
 }
 }

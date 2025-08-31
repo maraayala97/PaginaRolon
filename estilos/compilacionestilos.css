@@ -161,14 +161,15 @@ body {
   grid-area: video23;
 }
 
-.Bibliografia {
+.bibliografia {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
 }
-.Bibliografia p {
+.bibliografia p {
   font-family: "Lora", serif;
   font-size: 2rem;
   margin: 10px;
@@ -176,7 +177,7 @@ body {
   margin-top: 10px;
   margin-bottom: 30px;
 }
-.Bibliografia img {
+.bibliografia img {
   box-shadow: 10px 15px 15px rgb(130, 131, 138);
   margin-bottom: 30px;
   margin-top: 10px;
@@ -294,7 +295,6 @@ main .formulario .camposform {
   margin-right: 3rem;
 }
 .terapia select {
-  padding: 0.5rem;
   font-size: 2rem;
 }
 

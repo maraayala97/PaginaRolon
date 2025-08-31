@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 .email {
     display: flex;
     flex-direction: row;

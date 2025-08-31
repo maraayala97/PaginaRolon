@@ -19,25 +19,49 @@
         }
         .libro1{
             grid-area: libro1;
+            &:hover {
+                    transform: rotateY(360deg);
+                    transition: transform 0.6s ease-in-out;
+            }
         }
 
         .libro2{
             grid-area: libro2;
+            &:hover {
+                    transform: rotateY(360deg);
+                    transition: transform 0.6s ease-in-out;
+            }
         }
 
         .libro3{
             grid-area: libro3;
+            &:hover {
+                    transform: rotateY(360deg);
+                    transition: transform 0.6s ease-in-out;
+            }
         }
 
         .libro4{
             grid-area: libro4;
+            &:hover {
+                    transform: rotateY(360deg);
+                    transition: transform 0.6s ease-in-out;
+            }
         }
 
         .libro5{
             grid-area: libro5;
+            &:hover {
+                    transform: rotateY(360deg);
+                    transition: transform 0.6s ease-in-out;
+            }
         }
 
         .libro6{
             grid-area: libro6;
+            &:hover {
+                    transform: rotateY(360deg);
+                    transition: transform 0.6s ease-in-out;
+            }
         }
 }

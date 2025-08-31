@@ -1,19 +1,28 @@
+@use "./variables" as *;
+
+
 /*Boton FORMULARIO*/
 
 .compartir {
-        background-color: #4a4a4a;    
+        background-color: $grisclaro;    
         color: #ffffff;                
         padding: 1rem 2rem;            
         font-size: 1.6rem;            
         border: none;                 
         border-radius: 8px;
+        &:hover{
+                background-color: rgba(148, 137, 121, 0.4);
+        }
 }
 
 .limpiar {
-        background-color: #4a4a4a;    
+        background-color: $grisclaro;    
         color: #ffffff;                
         padding: 1rem 2rem;            
         font-size: 1.6rem;            
         border: none;                 
         border-radius: 8px;
+        &:hover{
+                background-color: rgba(148, 137, 121, 0.4);
+        }
 }

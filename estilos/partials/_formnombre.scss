@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 .nombre {
     display: flex;
     flex-direction: row;

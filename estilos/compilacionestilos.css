@@ -47,11 +47,18 @@ html {
   border-radius: 80%;
   opacity: 80%;
 }
+.encabezado nav ul .logo img:hover {
+  transform: rotateY(360deg);
+  transition: transform 0.6s ease-in-out;
+}
 .encabezado nav ul a {
   text-decoration: none;
   color: #4a4a4a;
   font-family: "Playfair Display", serif;
   font-weight: 600;
+}
+.encabezado nav ul a:hover {
+  text-decoration: underline;
 }
 
 footer {
@@ -167,7 +174,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
 }
 .bibliografia p {
   font-family: "Lora", serif;
@@ -181,9 +187,12 @@ body {
   box-shadow: 10px 15px 15px rgb(130, 131, 138);
   margin-bottom: 30px;
   margin-top: 10px;
+  margin-left: 10px;
   opacity: 90%;
   width: 60%;
   border-radius: 50%;
+  align-items: center;
+  align-content: center;
 }
 
 .libros {
@@ -204,20 +213,44 @@ body {
 .libros .libro1 {
   grid-area: libro1;
 }
+.libros .libro1:hover {
+  transform: rotateY(360deg);
+  transition: transform 0.6s ease-in-out;
+}
 .libros .libro2 {
   grid-area: libro2;
+}
+.libros .libro2:hover {
+  transform: rotateY(360deg);
+  transition: transform 0.6s ease-in-out;
 }
 .libros .libro3 {
   grid-area: libro3;
 }
+.libros .libro3:hover {
+  transform: rotateY(360deg);
+  transition: transform 0.6s ease-in-out;
+}
 .libros .libro4 {
   grid-area: libro4;
+}
+.libros .libro4:hover {
+  transform: rotateY(360deg);
+  transition: transform 0.6s ease-in-out;
 }
 .libros .libro5 {
   grid-area: libro5;
 }
+.libros .libro5:hover {
+  transform: rotateY(360deg);
+  transition: transform 0.6s ease-in-out;
+}
 .libros .libro6 {
   grid-area: libro6;
+}
+.libros .libro6:hover {
+  transform: rotateY(360deg);
+  transition: transform 0.6s ease-in-out;
 }
 
 main p {
@@ -330,6 +363,9 @@ main .formulario .camposform {
   border: none;
   border-radius: 8px;
 }
+.compartir:hover {
+  background-color: rgba(148, 137, 121, 0.4);
+}
 
 .limpiar {
   background-color: #4a4a4a;
@@ -338,6 +374,9 @@ main .formulario .camposform {
   font-size: 1.6rem;
   border: none;
   border-radius: 8px;
+}
+.limpiar:hover {
+  background-color: rgba(148, 137, 121, 0.4);
 }
 
 /*Celulares*/

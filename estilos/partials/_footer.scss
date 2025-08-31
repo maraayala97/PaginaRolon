@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 footer{
-    background-color: #948979;
+    background-color: $colorfootyhead;
     border-radius: 50%;
     padding-bottom: 1rem;
     .pie {

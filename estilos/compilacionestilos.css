@@ -46,6 +46,7 @@ html {
   text-decoration: underline;
 }
 .encabezado .logo {
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;

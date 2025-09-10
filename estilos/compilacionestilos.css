@@ -402,6 +402,7 @@ main .formulario .camposform {
   }
   .logo {
     width: 80%;
+    list-style: none;
   }
   .logo img {
     width: 100%;

@@ -87,10 +87,17 @@ footer .pie {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-footer img {
-  width: 5%;
-  margin-top: 0.5rem;
-  margin-left: 4rem;
+footer .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+footer .redes img {
+  width: 30px;
+  height: auto;
 }
 
 .presentacion {
@@ -344,7 +351,6 @@ main .formulario .camposform {
 
 .mensaje {
   width: 100%;
-  height: 302px;
   padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -449,10 +455,6 @@ main .formulario .camposform {
   }
   .terapiaparrafo {
     margin-bottom: 1rem;
-  }
-  /* FOOTER */
-  footer img {
-    width: 12%;
   }
 }
 

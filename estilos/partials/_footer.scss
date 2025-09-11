@@ -14,9 +14,16 @@ footer{
     padding-top: 4rem;
     padding-bottom: 4rem;
     }
-    img {
-    width: 5%;
-    margin-top: 0.5rem;
-    margin-left: 4rem;
+    .redes{
+        @include flex-centrado;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 1rem;
+
+        img {
+            width: 30px;
+            height: auto; 
+        }
     }
 }
+    

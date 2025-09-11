@@ -9,3 +9,8 @@ $colorfootyhead: #948979;
 $fonttextos: 'Lora', serif; //para textos y parrafos
 $fonttitulos: 'Playfair Display', serif; //para titulos
 $fontnav: 'Playfair Display', serif; //botones de nav
+@mixin flex-centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

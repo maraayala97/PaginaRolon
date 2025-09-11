@@ -96,9 +96,9 @@ footer img {
 .presentacion {
   text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .presentacion h1 {
   font-size: 10rem;
@@ -278,9 +278,9 @@ main .formulario {
 main .formulario .camposform {
   font-size: 2rem;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: rgba(148, 137, 121, 0.4);
@@ -401,7 +401,8 @@ main .formulario .camposform {
     font-size: 2rem;
   }
   .logo {
-    width: 80%;
+    width: 100%;
+    height: 100%;
     list-style: none;
   }
   .logo img {

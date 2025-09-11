@@ -13,10 +13,8 @@ main{
         font-family: "Poiret One", sans-serif;
             .camposform {
                 font-size: 2rem;
-                display: flex;
+                @include flex-centrado;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 padding-top: 6rem;
                 padding-bottom: 6rem;
                 background-color: rgba(148, 137, 121, 0.4);
